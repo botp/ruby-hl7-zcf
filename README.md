@@ -3,6 +3,8 @@
 # HL7::ZCF
 
 Adds support for the ZCF segment to [`ruby-hl7`](https://github.com/ruby-hl7/ruby-hl7)
+This segment was present in `ruby-hl7` gem but segments starting by a `Z` are supposed to be custom,
+and should not be in a standard gem. This gem is here for retro-compatibility.
 
 ## Installation
 
